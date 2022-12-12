@@ -1,0 +1,58 @@
+.form_container {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0004;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+.close_form {
+    transform: translate(-100%);
+}
+.App {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/fotos-premium/exotico-paisaje-playa-tropical-fondo-o-fondo-pantalla-escena-playa-al-atardecer-viajes-inspiradores-vacaciones-verano-concepto-vacaciones-turismo-relajante_1484-2485.jpg?w=2000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.App_title {
+    padding: 0.5em 2em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #555A88;
+    color: white;
+}
+.App_btn {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5em 2em;
+    margin-top: 20px;
+    background-color: #555A88;
+    border-radius: 0.5em;
+    display: grid;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 100ms ease;
+}
+.App_btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+.user_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    width: 100%;
+    max-width: 1200px;
+    gap: 2em;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+}
